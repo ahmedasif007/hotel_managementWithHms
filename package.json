@@ -1,0 +1,21 @@
+{
+  "name": "Hotel Management System",
+  "description": "Hotel Management System API",
+  "require": {
+    "php": "^8.2"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "vite",
+    "watch": "vite --watch",
+    "watch-poll": "vite --watch --poll",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "axios": "^1.6.2",
+    "laravel-vite-plugin": "^0.8.0",
+    "tailwindcss": "^3.3.0",
+    "vite": "^5.0.0"
+  }
+}
